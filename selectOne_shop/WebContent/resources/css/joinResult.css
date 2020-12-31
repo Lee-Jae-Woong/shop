@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.joinResultBody{
+	background-image: url("../images/백장미.jpg");
+	background-size: 100% 700px;
+	width:100%;
+	height: 700px;
+}
+.joinResultmain{
+	margin-left: 40%;
+	padding-top: 15%;
+}
+.joinResultmain > h3{
+	font-size: 35px;
+	margin-bottom: 50px;
+	color:white;
+	-webkit-text-stroke: 2px black;
+	font-weight: bold;
+}
+.joinResultmain > button{
+	width: 220px;
+	height: 50px;
+	background-color:white;
+	font-size:20px;
+}
+.joinResultmain > button:hover{
+	background-color:black;
+	color:white;
+}

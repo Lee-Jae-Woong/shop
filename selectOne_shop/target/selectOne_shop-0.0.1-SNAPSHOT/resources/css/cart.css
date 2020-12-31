@@ -1,0 +1,334 @@
+       /* reset.css  or  base.css */
+
+       * {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+    }
+
+    body{
+        font: 0.75em '맑은 고딕';
+        color: #333;
+    }
+    body::after{
+        font: 0.75em '맑은 고딕';
+        color: #333;
+        content: "";
+        /* background-image: url('../images/pexels.jpg'); */
+        /* background-image: url('../images/plantsizing.jpeg'); */
+        background-image: url('../images/unnamed1.jpg');
+
+        position: absolute;
+        background-position: center;
+        background-repeat : no-repeat;
+        background-size: cover;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #contentWrapper > #contentWrap > .cartMain{
+        text-align:center;
+        padding: 30px;
+    }
+    .cartSub{
+        display: inline-block;
+    }
+    .cartSubImg{
+        width:40px;
+        height:40px;
+        display: inline-block;
+    }
+    .cartSub > .cartSubImg{
+        float:left;
+    }
+    .cartMainText{
+        float:left;
+        font-weight: bold;
+        font-size:30px;
+    }
+
+
+    .shopping_cart {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .shopping_cart,
+    .shopping_cart th,
+    .shopping_cart td {
+       border: 1.2px solid #CCCACA;
+        border-width: 1px 0;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .shopping_cart th {
+       background-color: #fff4fa;
+        font-size: 1.2em;
+        color: black;
+        border-width: 2px 0;
+    }
+
+    .shopping_cart td {
+        border-bottom: 1px solid gainsboro;
+
+    }
+
+    .shopping_cart tr:hover td {
+        background-color: #eee;
+        cursor: pointer;
+    }
+
+    .shopping_cart img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .shopping_cart img:hover {
+        opacity: 0.5;
+    }
+
+    .shopping_cart>tbody>tr>td:nth-child(3) {
+        text-align: justify;
+    }
+
+    .shopping_cart>tbody>tr>td:nth-child(6) {
+        font-weight: bold;
+    }
+
+
+/*     .shopping_cart span {
+        display: block;
+        height: 15px;
+        font-size: 20px;
+        font-weight: bold;
+    } */
+
+
+    .shopping_cart>tbody>tr>td:nth-child(8)>span {
+    	display: block;
+        width: 100px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+        font-size: 20px;
+        font-weight : bold;
+        line-height: 25px;
+        color: #333;
+        border: 2px solid #ccc;
+        transition: all 0.3s ease;
+    }
+    .shopping_cart>tbody>tr>td:nth-child(8)>span:hover {
+
+        border-color: #888;
+
+    }
+
+
+    .cartCountChange {
+        font-size: 0;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .cartOption {
+        padding-bottom: 5px;
+        color: #999;
+    }
+
+
+    .cartCountChangeEdge {
+        font-size: 0;
+        text-align: center;
+    }
+
+    .btnDw {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        width: 33px;
+        height: 32px;
+        font-size: 12px;
+        color: rgb(102, 102, 102);
+        line-height: 30px;
+        border: 1px solid rgb(221, 221, 221);
+        text-decoration: none;
+    }
+
+    .txtSpin {
+        border: 1px solid #eee;
+        outline: 0;
+        margin-top: 1px;
+        padding: 0;
+        width: 33px;
+        height: 32px;
+        text-align: center;
+        border-right: none;
+        border-left: none;
+        border-image: initial;
+        border-top: 1px solid rgb(221, 221, 221);
+        border-bottom: 1px solid rgb(221, 221, 221);
+    }
+
+    .btnUp {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        width: 33px;
+        height: 32px;
+        font-size: 12px;
+        color: rgb(102, 102, 102);
+        line-height: 30px;
+        text-align: center;
+        border: 1px solid rgb(221, 221, 221);
+        text-decoration: none;
+    }
+
+    .cartCountBtn {
+        margin: 0;
+        line-height: 99.9%;
+        padding: 0;
+        margin-left: 3px;
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 12px;
+        color: #fff;
+        border: 1px solid #333;
+        background: #333;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+
+    .cartCountBtn:hover {
+        color: #333;
+        border: 1px solid #333;
+        background: #fff;
+        cursor: hand;
+    }
+
+    /* 결제창 하단 부분  */
+    .cartFootLine {
+        border: 1px solid gray;
+        border-width: 1px 0;
+        border-top: none;
+    }
+
+    .cartFoot {
+        border-top: none;
+        text-align: right;
+        border-bottom: none;
+    }
+
+
+    .DeleteBtn {
+        margin-top: 10px;
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 12px;
+        color: #fff;
+        border: 1px solid #909090;
+        background: #a1a1a1;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .shopping_cart_foot {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    .DeleteBtn:hover {
+        color: #333;
+        border: 1px solid #333;
+        background: #fff;
+        cursor: hand;
+    }
+
+    .btnDeleteCtr {
+        float: left;
+    }
+
+    .btnOrderCtr {
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+    .allGdsBtn {
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px 45px;
+        font-size: 14px;
+        color: #fff;
+        font: bold;
+        border: 1px solid #333;
+        background: #333;
+        transition: all 0.3s ease;
+    }
+
+    .allGdsBtn:hover {
+        color: black;
+        border: 1px solid #333;
+        background: #fff;
+        cursor: hand;
+    }
+
+
+    .selectGdsBtn {
+        display: inline-block;
+        padding: 12px 45px;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    .selectGdsBtn:hover{
+        border: 1px solid black;
+    }
+
+    .cartClear {
+        display: inline-block;
+        padding: 12px 45px;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+
+    .cartClear:hover {
+        border: 1px solid black;
+    }
+    
+    .shopingContinue {
+        display: inline-block;
+        padding: 12px 45px;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+        border: 1px solid #e0e0e0;
+        background: #fff;
+        transition: all 0.3s ease;
+        text-decoration: none;
+        }
+        .shopingContinue:hover{
+            border: 1px solid black;
+            
+        }

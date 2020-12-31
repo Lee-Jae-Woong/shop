@@ -1,0 +1,107 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+KR&display=swap');
+
+
+/*reset*/
+* {margin: 0;padding: 0;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td{margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 { font-size: inherit;}
+
+a:link { color: black; text-decoration: none;}
+a:visited {color: black;  text-decoration: none;}
+
+li{
+  list-style: none;
+  font-size: 12px;
+}
+
+footer{
+  max-width: 100%;
+  line-height: 2;
+
+}
+
+.top{
+  line-height: 2.5;
+}
+
+.top > .footTop > ul{
+  float: left;
+}
+
+.top > .footTop > ul > li{
+  list-style: none;
+}
+
+footer .footTop{
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 40px 0 50px;
+  height: 250px;
+  width : 1920px;
+
+}
+
+footer .footTop .line{
+  display: block;
+  margin: 15px 0;
+  width: 15px;
+  height: 1px;
+  background: #999;
+}
+
+.Wrap1{
+  height: 250px;
+  width: 250px;
+  border-right: 2px solid #eee;
+
+  padding-left: 330px;
+}
+
+.Wrap2{
+  height: 250px;
+  width: 250px;
+  padding-left: 70px;
+  border-right: 2px solid #eee;
+}
+
+.Wrap3{
+  height: 250px;
+  width: 250px;
+  border-right: 2px solid #eee;
+  padding-left: 70px;
+}
+
+.Wrap4{
+  height: 250px;
+  width: 250px;
+  border-right: 2px solid #eee;
+  padding-left: 70px;
+}
+
+.top > .footMiddle > ul{
+  text-align: center;
+}
+
+.footMiddle{
+  width: 1920px;
+  height: 50px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+  
+}
+
+
+.middle > li{
+  display: inline-block;
+  font-size: 12px;
+  height: 50px;
+  padding: 0 20px;
+  line-height: 42px;
+  margin-top: 3px;
+
+}
+
+
+
+

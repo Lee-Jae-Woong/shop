@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    padding-top: 150px;
+    
+}
+
+header {
+    background: #f5b335;
+    height: 100px;
+    position: fixed;
+    top: 10px;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -100px;
+}
+
+main {
+
+    height: 2000px;
+}
+
+footer { background: #ddd;}

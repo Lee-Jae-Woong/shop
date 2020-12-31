@@ -1,0 +1,153 @@
+@charset "UTF-8";
+body{
+  margin:0 auto;
+}
+.back{
+  background-image: url("../images/login.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin:0 auto;
+  position: absolute;
+  opacity: 0.8;
+  top:0;
+}
+.loginbody{
+  position: relative;
+  left: 40%;
+  margin-top: 10%;
+  height: 575px;
+}
+.title{
+  letter-spacing :7px;
+  margin-bottom: 10px;
+  font-size:50px;
+}
+.mainback{
+  position:absolute;
+  width: 500px;
+  height: 410px;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 1;
+  border-radius: 15px;
+}
+.input{
+  position:relative;
+  z-index: 10;
+  width: 400px;
+  height: 100px;
+}
+input::placeholder{
+  color:rgb(0,0,0);
+  font-weight: bold;
+}
+input:focus {outline:none;}
+.inputbar{
+  margin-top:50px;
+  width: 350px;
+  height: 30px;
+  font-size:12px;
+  border:none;
+  border-left:0px;
+  border-right:0px;
+  border-top:0px;
+  border-bottom:0px;
+  background-color:rgba(255, 255, 255, 0) ;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 1);
+}
+.inputbar:focus{
+  animation-name: inputbarstyle;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.error{
+  margin-left: 40px;
+  margin-top:20px;
+  font-size:14px;
+  color:red;
+}
+.loginbtn{
+  position: relative;
+  z-index: 1;
+  margin-top:50px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+  height: 40px;
+  font-size:25px;
+  letter-spacing :5px;
+  font-weight: bold;
+  background-color: #ffffff;
+  border:1px solid rgba(0,0,0,0.5);
+}
+.loginbtn:hover{
+  animation-name: btnbar;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+.move{
+  position: relative;
+  margin:0 auto;
+  width:500px;
+  height:100%;
+  float:left;
+  z-index: 1;
+}
+.movebtn{
+  position: absolute;
+  margin:0 auto;
+  margin-left:0;
+  font-size:25px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border:1px solid rgba(0,0,0,0.5); 
+}
+.movebtn:hover{
+  margin:0 auto;
+  animation-name: btnbar;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+#idmovebtn{
+  width:170px;
+  top:10px;
+  font-size:13px;
+  font-weight: bold;
+}
+#pwmovebtn{
+  margin:0 auto;
+  float:left;
+  margin-left: 180px;
+  width:170px;
+  top:10px;
+  font-size:13px;
+  font-weight: bold;
+}
+#joinmovebtn{
+  margin-top:20px;
+  width:350px;
+  font-size:13px;
+  font-weight: bold;
+}
+
+@keyframes inputbarstyle{
+  0%{
+    width: 0px;
+    border-bottom: 3px solid black;
+  }
+  100%{
+    width: 350px;
+    border-bottom: 3px solid black;
+  }
+}
+@keyframes btnbar{
+  0%{
+    background-color: #ffffff;
+  }
+  100%{
+    background-color: #000000;
+    color:white;
+  }
+}

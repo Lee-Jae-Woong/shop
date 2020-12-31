@@ -1,0 +1,74 @@
+[상품테이블] 꽃
+create table gds_info (
+    gdsNum       number          PK not null,
+    gdsName      varchar2(100)    not null,
+    cateCode     varchar2(30)    not null,
+    gdsPrice     number          not null,
+    gdsColor     varchar2(100)    not null, 
+    gdsStock     number          null,
+    gdsDetail       varchar2(500)    null,
+    gdsImg       varchar2(200)    not null,
+    thumbImg varcahr2(50) not null,
+    regDate      date            default sysdate 
+);
+
+[상품리뷰테이블] 리뷰
+create table gds_reply (
+    replyNum      number        PK not null,
+    gdsNum      number          FK not null,
+    userNum      varchar2(50)    FK not null,
+    replyText      varchar2(2000)  not null,
+    replyImg      varchar2(100)  null,
+    replyDate     date            default sysdate,
+    replyScore    number        not null, 
+);
+
+[회원테이블]
+create table user_info(
+    userNum number PK not null,
+    name varchar2(20) not null,
+    id varchar2(50) not null,
+    pw varchar2(50) not null,
+    email varchar2(50) not null,
+    tel varchar2(20) not null,
+    data Data, 
+    mAddr varchar2(20) not null,
+    lAddr varchar2(200) not null,
+    dlAddr varchar2(100) not null,
+    lastData Data 
+);
+
+[장바구니테이블] 
+상품명, 상품 썸네일 이미지 , 상품금액 -> join 활용 
+create table user_cart(
+   cartNum number PK not null,
+   userNum number FK not null,
+   gdsNum number FK not null,
+   cartCount number not null,
+   cartColor varchar2(50) not null,
+);
+ 
+[찜테이블]
+create table user_like(
+  likeNum number PK not null,
+  gdsNum number FK not null,
+  userNum number FK not null
+);
+
+[쿠폰테이블]
+create table user_coupon(
+  cpNum number PK not null,
+  userNum number FK not null,
+  cpName varchar2(100) not null,
+  expDate date not null,
+  cpRate number not null,  
+);
+
+[구매정보테이블] 바뀔듯 
+create table order_list(
+  ordNum number PK not null,
+  userNum number FK not null,
+  ordName varchar2(100) not null,
+  ordCharge number not null,
+  ordDate date not null
+);

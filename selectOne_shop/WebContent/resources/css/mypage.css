@@ -1,0 +1,572 @@
+@charset "UTF-8";
+
+.myMain {
+   text-align: center;
+   padding-top: 150px;
+   color: #373737;
+   width: 100%;
+}
+
+.myInfo {
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #373737;
+   width: 1300px;
+}
+.myMenu {
+   text-align: center;
+   color: #373737;
+}
+
+.mypage_menu {
+    margin-bottom: 40px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    width: 1255px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myMenu ul {
+   display: block;
+}
+
+.myMenu ul li {
+   margin-left: -1px;
+   float: left;
+   width: 180px;
+   height: 48px;
+   border-left: 1px solid #ddd;
+}
+
+.myMenu li a {
+   display: block;
+   font-size: 14px;
+   color: #666;
+   line-height: 48px;
+   text-align: center;
+   text-decoration: none;
+}
+
+.myMenu li a:hover {
+   text-shadow: -.25px -.25px 0 black, .25px .25px black;
+}
+
+.orderInfo {
+   padding-top: 50px;
+   padding-left: 280px;
+   position: relative;
+   width: 1300px;
+   height: 15px;
+   padding-bottom: 35px;
+}
+
+
+
+div .lstOrderList {
+   color: #373737;
+   width: 1220px;
+   display: inline-block;
+}
+
+
+div .lstOrderListAll {
+   display: inline-block;
+   float: right;
+   font-size: 13px;
+   margin-right: 0px;
+}
+
+.myOrder {
+   text-align: center;
+   color: #373737;
+}
+
+.myOrder2 {
+   text-align: center;
+   color: #373737;
+   position: absolute;
+   margin-left: 15%;
+   margin-right: 15%;
+}
+
+.myOrder table {
+   border-top: 2px solid #D9DBDC;
+   border-bottom: 1px solid #D9DBDC;
+   border-collapse: collapse;
+}
+
+.myOrder table th {
+   border-bottom: 1px solid #D9DBDC;
+   background-color: #F8FDFE;
+   padding-top: 5px;
+   height: 40px;
+   font-weight: normal;
+}
+
+.myOrder table td {
+   border-bottom: 1px solid #D9DBDC;
+   padding-top: 5px;
+   height: 40px;
+}
+
+.tb-center {
+   text-align: center;
+}
+
+.tb-left {
+   text-align: left;
+}
+
+.wishHead {
+   display: inline-block;
+   padding-top: 50px;
+   padding-left: 90px;
+   width: 600px;
+   height: 15px;
+   padding-bottom: 35px;
+}
+
+.wishHead h4 {
+   display: inline-block;
+   width: 500px;
+   padding-right: 40px;
+}
+
+.wishHead a {
+   display: inline-block;
+   font-size: 13px;
+   margin-right: 0px;
+}
+
+.myWish {
+   width: 600px;
+   padding-left: 90px;
+   font-size: 12px;
+   text-align: left;
+}
+
+.cartHead {
+   display: inline-block;
+   padding-top: 50px;
+   height: 15px;
+   padding-bottom: 35px;
+}
+
+.cartHead h4 {
+   display: inline-block;
+   width: 500px;
+   color: #373737;
+   padding-right: 40px;
+}
+
+.cartHead a {
+   display: inline-block;
+   font-size: 13px;
+   margin-right: 0px;
+}
+
+.myCart {
+   width: 600px;
+   font-size: 12px;
+   text-align: left;
+}
+
+.stock {
+   display: flex;
+   width: 1300px;
+}
+
+.stock1 {
+   flex: 1;
+   margin-left: 190px;;
+}
+
+.stock2 {
+   flex: 2;
+   margin-left: 80px;;
+}
+
+.myWish table {
+   border-top: 2px solid #D9DBDC;
+   border-bottom: 1px solid #D9DBDC;
+   border-collapse: collapse;
+   width: 600px;
+}
+
+.myWish table th {
+   border-bottom: 1px solid #D9DBDC;
+   background-color: #F8FDFE;
+   padding-top: 5px;
+   height: 40px;
+   font-weight: normal;
+}
+
+.myWish table td {
+   border-bottom: 1px solid #D9DBDC;
+   padding-top: 5px;
+   height: 40px;
+}
+
+.myCart table {
+   border-top: 2px solid #D9DBDC;
+   border-bottom: 1px solid #D9DBDC;
+   border-collapse: collapse;
+   width: 600px;
+}
+
+.myCart table th {
+   border-bottom: 1px solid #D9DBDC;
+   background-color: #F8FDFE;
+   padding-top: 5px;
+   height: 40px;
+   font-weight: normal;
+}
+
+.myCart table td {
+   border-bottom: 1px solid #D9DBDC;
+   padding-top: 5px;
+   height: 40px;
+}
+
+.p-bold {
+   font-weight: bold;
+}
+
+.CSSbuttonGray {
+   color: black;
+   font-weight: bold;
+   font-size: 15px;
+}
+
+.subTitle {
+   font-size: 40px;
+   font-weight: bold;
+}
+
+.lstOrdList {
+   float: left;
+   font-size: 17px;
+   font-weight: bold;
+   
+}
+
+.ordAllList a{
+   float:right;
+   font-size:13px;
+   padding-top:6px;
+}
+
+#contentWrap{
+   padding-top:3px;
+}
+
+.myPageUserInfo {
+   width: 75%;
+   margin: 0 auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+
+.myPageUserInfo, .myPageUserInfo th, .myPageUserInfo td {
+   border-collapse: collapse;
+   text-align: center;
+   padding: 8px;
+}
+
+.myPageUserInfo th {
+   background-color: #f8f8f8;
+   font-size: 1.2em;
+   border-width: 2px 0;
+}
+
+.myPageUserInfo td {
+   background-color: #f8f8f8;
+   font-size: 1.2em;
+   border-left: 1px solid #ddd;
+}
+
+.myPageUserInfo td span {
+   font-size: 26px;
+   font-weight: normal;
+   font-style: normal;
+}
+.info{
+
+    padding-bottom: 50px;
+
+}
+
+   * {
+            margin: 0;
+            padding: 0;
+            }
+
+        body {
+            font: 0.75em '맑은 고딕';
+            color: #333;
+        }
+
+        h2 {
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 200px;
+        }
+
+        .shopping_cart {
+            width: 75%;
+            margin: 0 auto 30px;
+        }
+
+        .shopping_cart,
+        .shopping_cart th,
+        .shopping_cart td {
+            border: 1.2px solid #CCCACA;
+            border-width: 1px 0;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 8px;
+        }
+
+        .shopping_cart th {
+            font-size: 13px;
+            font-weight : normal;
+            color: black;
+            border-width: 2px 0;
+            background-color: #fff4fa;
+        }
+
+        .shopping_cart td {
+            /* border-style: dotted; */
+            border-bottom: 1px solid gainsboro;
+
+        }
+        
+
+        .shopping_cart tr:hover td {
+            background-color: #eee;
+            cursor: pointer;
+        }
+
+        .shopping_cart img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .shopping_cart img:hover {
+            opacity: 0.5;
+        }
+
+        .shopping_cart>tbody>tr>td:nth-child(3) {
+            text-align: justify;
+        }
+
+        .shopping_cart>tbody>tr>td:nth-child(6) {
+            font-weight: bold;
+        }
+
+        .shopping_cart p {
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            font-size: 12px;
+            line-height: 25px;
+            color: #333;
+            border: 2px solid #ccc;
+        }
+
+
+
+        .shopping_cart p:hover {
+            border-color: #888;
+        }
+
+        .shopping_cart span {
+            display: block;
+            height: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .cartCountChange {
+            font-size: 0;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+
+        .cartOption {
+            padding-bottom: 5px;
+            color: #999;
+        }
+
+
+        .cartCountChangeEdge {
+            font-size: 0;
+            text-align: center;
+        }
+
+        .btnDw {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 33px;
+            height: 32px;
+            font-size: 12px;
+            color: rgb(102, 102, 102);
+            line-height: 30px;
+            border: 1px solid rgb(221, 221, 221);
+            text-decoration: none;
+        }
+
+        .txtSpin {
+            border: 1px solid #eee;
+            outline: 0;
+            margin-top: 1px;
+            padding: 0;
+            width: 33px;
+            height: 32px;
+            text-align: center;
+            border-right: none;
+            border-left: none;
+            border-image: initial;
+            border-top: 1px solid rgb(221, 221, 221);
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
+
+        .btnUp {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            width: 33px;
+            height: 32px;
+            font-size: 12px;
+            color: rgb(102, 102, 102);
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid rgb(221, 221, 221);
+            text-decoration: none;
+        }
+
+        .cartCountBtn {
+            margin: 0;
+            line-height: 99.9%;
+            padding: 0;
+            margin-left: 3px;
+            display: inline-block;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            border: 1px solid #333;
+            background: #333;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .cartCountBtn:hover {
+            color: #333;
+            border: 1px solid #333;
+            background: #fff;
+            cursor: hand;
+        }
+
+        /* 결제창 하단 부분  */
+        .cartFootLine {
+            border: 1px solid gray;
+            border-width: 1px 0;
+            border-top: none;
+        }
+
+        .cartFoot {
+            border-top: none;
+            text-align: right;
+            border-bottom: none;
+        }
+
+
+        .gdsDeleteBtn {
+            margin-top:10px;
+            display: inline-block;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            border: 1px solid #909090;
+            background: #a1a1a1;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .shopping_cart_foot {
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .gdsDeleteBtn:hover {
+            color: #333;
+            border: 1px solid #333;
+            background: #fff;
+            cursor: hand;
+        }
+
+        .btnDeleteCtr {
+            float: left;
+        }
+        .btnOrderCtr{
+            margin-top: 50px;
+            text-align: center;
+            
+        }
+        .allGdsBtn{
+            display: inline-block;
+            text-decoration:none;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            font:bold;
+            border: 1px solid #333;
+            background: #333;
+        }
+.baseBox li{
+   box-sizing: border-box;
+}
+
+.blue_button {
+    border: solid 1px #B889DB;
+    height: 20px;
+    font-size: 12px;
+    /*border-radius*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-image: -moz-linear-gradient(top, #B889DB, #EADCF4);
+    background-image: -o-linear-gradient(top, #B889DB, #EADCF4);
+    background-image: -ms-linear-gradient(top, #B889DB, #EADCF4);
+    background-image: -webkit-linear-gradient(top, #B889DB, #EADCF4);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #B889DB), color-stop(1, #EADCF4));
+    filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#B889DB, EndColorStr=#EADCF4)";
+    background-image: linear-gradient(top, #B889DB, #EADCF4);
+    width: 40px;
+    background-color: #B889DB;
+    /*box-shadow*/
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer
+}
+.blue_button:hover {
+    background-image: -moz-linear-gradient(top, #EADCF4, #B889DB);
+    background-image: -o-linear-gradient(top, #EADCF4, #B889DB);
+    background-image: -webkit-linear-gradient(top, #EADCF4, #B889DB);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EADCF4), color-stop(1, #B889DB));
+    filter:"progid:DXImageTransform.Microsoft.gradient(startColorStr=#EADCF4, EndColorStr=#B889DB)";
+    background-image: linear-gradient(top, #EADCF4, #B889DB);
+
+}

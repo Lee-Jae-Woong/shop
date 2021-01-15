@@ -1,0 +1,132 @@
+@charset "EUC-KR";
+
+#divBody {
+	background: url(../images/pviselect1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-position-y: inherit;
+	    width: 430px;
+        height: auto;
+        margin: auto;
+}
+
+tr{
+	text-align: center;
+}
+
+#receiptTitle {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+#siteInfo {
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+
+.rightSpan {
+	float: right;
+	margin-right: 30px;
+}
+
+hr {
+	border: none;
+	border-top: 2px dotted black;
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+	width: 90%;
+	margin:auto;
+	    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+}
+
+#ordList {
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+
+#orderInfo {
+	width: 100%
+}
+
+#calInfo {
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+#menu4, #list4 {
+
+}
+
+#rightTd {
+	text-align: right;
+	width: 120px;
+	padding-right: 30px;
+}
+
+#toTal {
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+#payMethodInfo{
+	margin-left: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 13px;
+}
+
+.receiptHeight{
+	        padding-bottom: 10px;
+}
+
+#thanks {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+a.button2 {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;
+	margin: -20px auto;
+	    margin-bottom: 100px;
+	max-width: 180px;
+	text-decoration: none;
+	border-radius: 4px;
+    padding: 13px 20px;
+    width: 165px;    
+    font-size: 18px;
+    text-align: center;
+}
+
+a.button2 {
+	color: rgba(30, 22, 54, 0.6);
+	box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+}
+
+a.button2:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 80px 0px 2px inset;
+}

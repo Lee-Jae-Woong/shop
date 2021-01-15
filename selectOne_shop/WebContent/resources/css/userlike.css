@@ -1,0 +1,241 @@
+@charset "EUC-KR";
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font: 0.75em '맑은 고딕';
+            color: #333;
+        }
+
+        h2 {
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            font-size: 40px;
+            line-height: 200px;
+            
+        }
+
+        .userLikeList {
+            width: 75%;
+            margin: 0 auto;
+        }
+        .userLikeList,
+        .userLikeList th,
+        .userLikeList td {
+            border: 1px solid gray;
+            border-width: 1px 0;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 8px;
+        }
+/* 		.userLikeList .userLikeLeft {
+			text-align : left
+		}
+ */
+        .userLikeList th {
+            background-color: #999;
+            font-size: 1.2em;
+            color: #fff;
+            border-width: 2px 0;
+        }
+
+        .userLikeList td {
+            /* border-style: dotted; */
+            border-bottom: 1px solid gainsboro;
+
+        }
+        
+
+        .userLikeList tr:hover td {
+            background-color: #eee;
+            cursor: pointer;
+        }
+
+        .userLikeList img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .userLikeList img:hover {
+            opacity: 0.5;
+        }
+
+        .userLikeList>tbody>tr>td:nth-child(3) {
+            text-align: justify;
+        }
+
+        .userLikeList>tbody>tr>td:nth-child(6) {
+            font-weight: bold;
+        }
+
+        .userLikeList p {
+            width: 100px;
+            height: 30px;
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            font-size: 12px;
+            line-height: 25px;
+            color: #333;
+            border: 2px solid #ccc;
+        }
+
+
+
+        .userLikeList p:hover {
+            border-color: #888;
+        }
+
+        .userLikeList span {
+            display: block;
+            height: 15px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .userLikeCountChange {
+            font-size: 0;
+            margin: 0px;
+            padding: 0px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+
+        .userLikeOption {
+            padding-bottom: 5px;
+            color: #999;
+        }
+
+
+        .userLikeCountChangeEdge {
+            font-size: 0;
+            text-align: center;
+        }
+
+        .btnDw {
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            width: 33px;
+            height: 32px;
+            font-size: 12px;
+            color: rgb(102, 102, 102);
+            line-height: 30px;
+            border: 1px solid rgb(221, 221, 221);
+            text-decoration: none;
+        }
+
+        .txtSpin {
+            border: 1px solid #eee;
+            outline: 0;
+            margin-top: 1px;
+            padding: 0;
+            width: 33px;
+            height: 32px;
+            text-align: center;
+            border-right: none;
+            border-left: none;
+            border-image: initial;
+            border-top: 1px solid rgb(221, 221, 221);
+            border-bottom: 1px solid rgb(221, 221, 221);
+        }
+
+        .btnUp {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            width: 33px;
+            height: 32px;
+            font-size: 12px;
+            color: rgb(102, 102, 102);
+            line-height: 30px;
+            text-align: center;
+            border: 1px solid rgb(221, 221, 221);
+            text-decoration: none;
+        }
+
+        .userLikeCountBtn {
+            margin: 0;
+            line-height: 99.9%;
+            padding: 0;
+            margin-left: 3px;
+            display: inline-block;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            border: 1px solid #333;
+            background: #333;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        .userLikeCountBtn:hover {
+            color: #333;
+            border: 1px solid #333;
+            background: #fff;
+            cursor: hand;
+        }
+
+        /* 결제창 하단 부분  */
+        .userLikeFootLine {
+            border: 1px solid gray;
+            border-width: 1px 0;
+            border-top: none;
+        }
+
+        .userLikeFoot {
+            border-top: none;
+            text-align: right;
+            border-bottom: none;
+        }
+
+
+        .gdsDeleteBtn {
+            margin-top:10px;
+            display: inline-block;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            border: 1px solid #909090;
+            background: #a1a1a1;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .userLikeList_foot {
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        .gdsDeleteBtn:hover {
+            color: #333;
+            border: 1px solid #333;
+            background: #fff;
+            cursor: hand;
+        }
+
+        .btnDeleteCtr {
+            float: left;
+        }
+        .btnOrderCtr{
+            margin-top: 50px;
+            text-align: center;
+            
+        }
+        .allGdsBtn{
+            display: inline-block;
+            text-decoration:none;
+            padding: 8px 12px;
+            font-size: 12px;
+            color: #fff;
+            font:bold;
+            border: 1px solid #333;
+            background: #333;
+        }

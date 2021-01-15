@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+body{
+	margin:0 auto;
+}
+.back{
+  background-image: url("../images/termsback.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin:0 auto;
+  position: fixed;
+  top:0;
+}
+.fermsbody{
+  position: relative;
+  width: 60%;
+  height: 100%;
+  margin:0 auto;
+  text-align:left;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+.termsnic{
+	font-size:20px;
+	margin-bottom: 10px;
+}
+.termsname{
+  font-size: 20px;
+  position: absolute;
+  margin-top:10px;
+}
+.fermstitle{
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.namecon{
+  margin-left: 30px;
+  margin-bottom:3px;
+  margin-top:5px;
+}
+.termsbox{
+  position: relative;
+  resize: none;
+  width: 600px;
+  height: 150px;
+  border-radius: 5px;
+}
+.move{
+  width: 300px;
+  float: left;
+}
+.movebtn{
+  position: absolute;
+  margin: 0 auto;
+  margin-bottom: 3px;
+  border-radius: 5px;
+  border: 0.1em solid black; 
+  background-color:#ffffff;
+  width: 100px;
+  height: 40px;
+}
+#btnmain{
+  margin-left: 110px;
+}
+.movebtn:hover{
+  margin:0 auto;
+  animation-name: btnbar;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+}
+footer{
+	position: absolute;
+}
+@keyframes btnbar{
+  0%{
+    background-color: #ffffff;
+  }
+  100%{
+    background-color: #000000;
+    color:white;
+  }
+}

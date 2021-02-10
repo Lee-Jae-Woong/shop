@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 <c:set var="root" value="${pageContext.request.contextPath }/" />
 <html lang="ko">
 <head>
@@ -64,13 +65,13 @@
 									</div>
 								</div>
 							</td>
-							<td>${dto.gdsPrice*dto.cartCount*0.02}</td>
-							<td>${dto.gdsPrice}</td>
+							<td><fmt:formatNumber value="${dto.gdsPrice*dto.cartCount*0.02}" type="number" /></td>
+							<td><fmt:formatNumber value="${dto.gdsPrice}" type="number" /></td>
 							<td>[기본배송]<br>조건
 							</td>
 							<td><span id="delete" onclick="location.href='cart/delete?cartNum=${dto.cartNum}'">×</span><br>
 								<!-- <p>관심상품담기</p></td> -->
-						</tr>
+						</tr> 
 						</c:forEach>
 				</tbody>
 				<tfoot class="cartFootLine">
@@ -78,7 +79,7 @@
 					<tr>
 						<td colspan="8">
 							<div class="cartFoot">
-								총 구매금액 : ${cal } 원 <strong>${cal }원</strong> (적립금 : ${cal*0.02}원)
+								총 구매금액 : <strong><fmt:formatNumber value="${cal }" type="number"/>원</strong> (적립금 : <fmt:formatNumber value="${cal*0.02}" type="number"/>원)
 							</div>
 						</td>
 					</tr>
@@ -129,7 +130,6 @@
 		return cartNums;
 	}
 	
-	
 		 function chkOrder() {
 	         let cartNums = select_chkBox();
 	         if(cartNums == '?'){
@@ -149,8 +149,6 @@
 	         location.href = 'cart/deleteChoice' + cartNums;
 	         } 
 	      } 
-	      
-
 			
 		// 체크박스
 		$(document).ready(function() {
@@ -165,7 +163,6 @@
 
 		});
 
-
 		//전체삭제 
 
 		$("#deleteAll").click(function() {
@@ -175,7 +172,6 @@
 				return false;
 			}
 		});
-
 
 
 		// 장바구니 수량 조정
@@ -205,11 +201,7 @@
 			$('.cartCountBtn').click(function(){
 				let n = $('.cartCountBtn').index(this);
 				let cartCount = $(".txtSpin:eq(" + n + ")").val();
-				
-				
 				let cartNum =  $(".checkList:eq(" + n + ")").val();
-
-				
 				location.href="cart/cartUpdate?cartCount="+cartCount+"&cartNum="+cartNum;
 				
 				
